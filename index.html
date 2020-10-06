@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Hair OLIVE</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+  <div id="wrapper">
+
+    <header class="header">
+      <div class="heading">
+        <h1 class="heading__title">Hair Olive</h1>
+      </div>
+
+      <!-- パソコン用のヘッダーメニュー -->
+      <div class="pc-navbar">
+        <ul class="pc-navbar__lists">
+          <a href="#news"><li>News</li></a>
+          <a href="#menu"><li>Menu</li></a>
+          <a href="#stylist"><li>Stylist</li></a>
+          <a href="#access"><li>Access</li></a>
+          <a href="#reservation"><li>Reservation</li></a>
+        </ul>
+      </div>
+
+      <!-- タブレット & スマホ用のハンバーガーメニュー -->
+        <nav class="global-nav">
+          <ul class="global-nav__list">
+            <li class="global-nav__item"><a href="#news">News</a></li>
+            <li class="global-nav__item"><a href="#menu">Menu</a></li>
+            <li class="global-nav__item"><a href="#stylist">Stylist</a></li>
+            <li class="global-nav__item"><a href="#access">Access</a></li>
+            <li class="global-nav__item"><a href="#reservation">Reservation</a></li>
+          </ul>
+        </nav>
+        <div class="hamburger" id="js-hamburger">
+          <span class="hamburger__line hamburger__line--1"></span>
+          <span class="hamburger__line hamburger__line--2"></span>
+          <span class="hamburger__line hamburger__line--3"></span>
+        </div>
+        <div class="black-bg" id="js-black-bg"></div>
+    </header>
+
+  
+    <!-- 画像の切り替わり -->
+      <div class="fade-img">
+        <img src="/images/hero1.jpg">
+        <img src="/images/hero2.jpg">
+        <img src="/images/hero3.jpg">
+        <img src="/images/hero4.jpg">
+      </div>
+
+    <!-- パソコン用のハンバーガーメニュー -->
+      <div class="right-to-left">
+        <span class="nav_toggle">
+          <i></i>
+          <i></i>
+          <i></i>
+        </span>
+        <nav class="nav">
+          <ul class="nav_menu_ul">
+            <a href="#news"><li class="nav_menu_li">News</li></a>
+            <a href="#menu"><li class="nav_menu_li">Menu</li></a>
+            <a href="#stylist"><li class="nav_menu_li">Stylist</li></a>
+            <a href="#access"><li class="nav_menu_li">Access</li></a>
+            <a href="#reservation"><li class="nav_menu_li">Reservation</li></a>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- ニュース -->
+      <div class="news-content" id="news">
+        <h2 class="heading-name"><span class="Text-Span JS_ScrollAnimationItem">News</span></h2>
+        <ul class="messages">
+          <li class="message">
+            <div class="message__date">2019/10/06</div>
+            <div>[新規のお客さま限定]<b>10%OFF</b>キャンペーン</div>
+          </li>
+          <li class="message">
+            <div class="message__date">2019/10/03</div>
+            <div>うれしい<b>ポイントアップキャンペーン</b></div>
+          </li>
+          <li class="message">
+            <div class="message__date">2019/09/27</div>
+            <div>2019年成人式、ご予約承ります</div>
+          </li>
+          <li class="message">
+            <div class="message__date">2019/10/03</div>
+            <div>うれしい<b>ポイントアップキャンペーン</b></div>
+          </li>
+          <li class="message">
+            <div class="message__date">2019/09/27</div>
+            <div>2019年成人式、ご予約承ります</b></div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- メニュー -->
+      <div class="menu-content" id="menu">
+        <h2 class="heading-name"><span class="Text-Span JS_ScrollAnimationItem">Menu</span></h2>
+        <div class="cut">
+          <img src="images/hero4.jpg" alt="" class="cut-image">
+          <div class="cut__nav">
+            <h3 class="menu-title">カット</h3>
+            <ul class="menu-ul">
+              <li class="menu-li">
+                <p>Stylistカット</p>
+                <p>1800円</p>
+              </li>
+              <li class="menu-li">
+                <p>Stylistカット</p>
+                <p>1800円</p>
+              </li>
+              <li class="menu-li">
+                <p>Stylistカット</p>
+                <p>1800円</p>
+              </li>
+            </ul>
+          </div>
+        </div> 
+
+        <div class="color">
+          <div class="color__nav">
+            <h3 class="menu-title">ヘアカラー</h3>
+            <ul class="menu-ul">
+              <li class="menu-li">
+                <p>Stylistヘアカラー</p>
+                <p>3000円</p>
+              </li>
+              <li class="menu-li">
+                <p>Stylistヘアカラー</p>
+                <p>3000円</p>
+              </li>
+              <li class="menu-li">
+                <p>Stylistヘアカラー</p>
+                <p>3000円</p>
+              </li>
+            </ul>
+          </div>
+          <img src="images/hero3.jpg" alt="" class="color-image">
+        </div>
+
+        <div class="shampoo">
+          <img src="images/hero2.jpg" alt="" class="shampoo-image">
+          <div class="shampoo__nav">
+            <h3 class="menu-title">シャンプー</h3>
+            <ul class="menu-ul">
+              <li class="menu-li">
+                <p>シャンプー</p>
+                <p>800円</p>
+              </li>
+              <li class="menu-li">
+                <p>シャンプー</p>
+                <p>800円</p>
+              </li>
+              <li class="menu-li">
+                <p>シャンプー</p>
+                <p>800円</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- スタイリスト紹介 -->
+      <div class="stylist-content" id="stylist">
+        
+        <h2 class="heading-name"><span class="Text-Span JS_ScrollAnimationItem">Stylist</span></h2>
+        <ul class="stylist-list">
+          <li>
+            <img src="images/staff1.jpg" alt="staff1" class="stylist-image">
+            <h4 class="stylist-name">京田</h4>
+          </li>
+          <li>
+            <img src="images/staff2.jpg" alt="staff1" class="stylist-image">
+            <h4 class="stylist-name">阿部</h4>
+          </li>
+          <li>
+            <img src="images/staff3.jpg" alt="staff1" class="stylist-image">
+            <h4 class="stylist-name">平田</h4>
+          </li>
+        </ul>
+      </div>
+
+      <!-- アクセス -->
+      <div class="access-content">
+        <h2 class="heading-name" id="access"><span class="Text-Span JS_ScrollAnimationItem">Access</span></h2>
+        <div class="access-wrapper">
+          <div class="address">
+            <p>神戸市のヘアサロンです。<br>お気軽にお立ち寄りください。</p>
+            
+            <ul class="address-ul">
+              <li class="address-li">
+                <div class="address-li__title">ADDRESS</div>
+                <div class="address-li__content">〒111-1111<br>
+                     神戸市神戸町7777-77<br>
+                     神戸ビル 1F
+                </div>
+              </li>
+              <li class="address-li">
+                <div class="address-li__title">TEL</div>
+                <div class="address-li__content">080-777-7777</div>
+              </li>
+              <li class="address-li">
+                <div class="address-li__title">OPEN</div>
+                <div class="address-li__content">10:00-19:00</div>
+              </li>
+              <li class="address-li">
+                <div class="address-li__title">CLOSE</div>
+                <div class="address-li__content">火曜日</div>
+              </li>
+            </ul>
+          </div>
+          <div class="ggmap"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26229.22883065825!2d135.168719719165!3d34.739124832795646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1600162385253!5m2!1sja!2sjp"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+        
+        
+        </div>
+      </div>
+
+      <!-- お問い合わせフォーム -->
+      <div class="reservation-content" id="reservation">
+        <form class="contact-form">
+          <h2 class="heading-name"><span class="Text-Span JS_ScrollAnimationItem">Reservation</span></h2>
+          <input type="text" placeholder="name" class="small-field">
+          <input type="text" placeholder="email" class="small-field">
+          <textarea placeholder="message" class="large-field"></textarea>
+          <input type="submit" value="SEND" class="send">
+        </form>
+      </div>
+      
+    </div>
+
+    <footer class="footer">
+      <p>Copyright(C) Hair OLIVE ALL RIGHTS RESERVED.</p>
+    </footer>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/script.js"></script>
+  </div>
+  </body>
+</html>
